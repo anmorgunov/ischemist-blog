@@ -4,6 +4,8 @@ import BlogNewsletterForm from 'pliny/ui/BlogNewsletterForm'
 import type { MDXComponents } from 'mdx/types'
 import Image from './Image'
 import CustomLink from './Link'
+import { CNote, CIdea, CFact } from './Callout'
+import Plotly from './Graph'
 
 export const components: MDXComponents = {
   Image,
@@ -11,4 +13,8 @@ export const components: MDXComponents = {
   a: CustomLink,
   pre: Pre,
   BlogNewsletterForm,
+  CNote,
+  CIdea,
+  CFact,
+  Plotly,
 }
